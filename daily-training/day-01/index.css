@@ -1,0 +1,105 @@
+/* 
+body {
+    position: relative;
+    background-image: url('./shaning.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.mask {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    width: 200px;
+    background: inherit;
+    height: 400px;
+    overflow: hidden;
+}
+
+.mask::before {
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: -20px;
+    left: -20px;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.3);
+    filter: blur(12px);
+
+    /* content: ' ';
+    background: inherit; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+    filter: blur(10px); */
+}
+
+.my-iframe {
+        width: 400px;
+        height: 300px;
+   }
+
+.message-area {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.send-message-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 20px;
+    height: 36px;
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+.send-area {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;;
+    align-items: center;
+}
+
+#sendInput {
+    width: 240px;
+    outline: none;;
+    height: 30px;
+}
+
+#myCanvas {
+    margin-top: 20px;
+    border: 1px solid aqua;
+}
+
+.red {
+    fill: red; /* not background-color! */
+  }
+  
+  .fancy {
+    fill: none;
+    stroke: black; /* similar to border-color */
+    stroke-width: 3pt; /* similar to border-width */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

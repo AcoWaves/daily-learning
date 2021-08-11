@@ -1,0 +1,66 @@
+/* video-area */
+.video-area {
+    position: relative;
+}
+
+image {
+    width: 100%;
+}
+
+#webcam {
+    height: 300px;
+    border: 1px solid aqua;
+}
+
+/* coommon */
+
+.btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid blue;
+    width: 160px;
+    height: 40px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* 其他 */
+
+.message-area {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.send-message-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 20px;
+    height: 36px;
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+.send-area {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;;
+    align-items: center;
+}
+
+#sendInput {
+    width: 240px;
+    outline: none;;
+    height: 30px;
+}
+
+
+

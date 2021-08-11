@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-29 06:47:58
- * @LastEditTime: 2021-07-01 09:25:58
+ * @LastEditTime: 2021-07-07 19:15:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \daily-learning\daily-training\day-01\index.html
@@ -12,19 +12,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
 
 <body>
-    <button id="add">添加数据</button>
-    <button id="get">获取数据</button>
-    <button id="delete">删除一条数据</button>
-    <button id="updata">更新数据</button>
-    <button id="clear">清空object store</button>
-    <ul id="display"></ul>
-    
-    
-<script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script> 
+  <div id="app">
+    <input type="text" v-model="aaa">
+
+    <div class="aaa">{{aaa}}</div>
+  </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="index.js"></script> 
 </body>
 </html>
